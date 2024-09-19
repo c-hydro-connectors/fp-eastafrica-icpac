@@ -126,6 +126,7 @@ make install
 
 export PATH=$PATH_CDO/bin:$PATH
 
+echo 'export PATH='$PATH_CDO'/bin:$PATH' >> ~/.bashrc 
 #source activate fp_virtualenv_python3_basic
 #pip install cdo
 #source deactivate

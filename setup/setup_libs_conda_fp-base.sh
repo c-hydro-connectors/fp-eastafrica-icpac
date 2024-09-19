@@ -211,6 +211,8 @@ pip install cdo
 pip install eccodes-python
 source deactivate
 
+echo 'export PATH='$LIBS_PATH'/libs_conda/bin:$PATH' >> ~/.bashrc 
+
 echo " ====> CREATE ENVIRONMENTAL FILE ... DONE!"
 # ----------------------------------------------------------------------------------------
 
