@@ -205,6 +205,12 @@ echo "export PATH" >> $fp_env_file_reference
 # Export VENV ACTIVATION
 echo "source activate $fp_env_folder_libraries" >> $fp_env_file_reference
 
+echo "Install cdo libraries for python"
+source activate $fp_env_folder_libraries
+pip install cdo
+pip install eccodes-python
+source deactivate
+
 echo " ====> CREATE ENVIRONMENTAL FILE ... DONE!"
 # ----------------------------------------------------------------------------------------
 
